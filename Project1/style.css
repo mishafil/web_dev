@@ -1,5 +1,43 @@
 body{
 	background-color: green; 
 	color: #fff;
+}
+
+.welcome{
 	text-align: center;
+}
+
+.aboutMe{
+	text-align: left;
+}
+
+.photo{
+	float: left;
+}
+
+.lists{
+	text-align: center;
+}
+
+.tableHeader {
+	text-align: center;
+}
+
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+.form{
+	text-align: center;
+	float: center;
 }

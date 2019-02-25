@@ -1,13 +1,103 @@
+<!DOCTYPE html> 
+
 <html>
-	<body>
+
+	<head>
 		<link href="style.css" rel = "stylesheet" type="text/css">
-	</body>
+	</head>
+	
 	<title>
 		First website
 	</title>
 
 	<body>
-		<h1>Hi, that is first page</h1>
+	
+		<div class = "welcome">
+			<h1>Hi, that is my first page</h1>
+		</div>
+		
+		<div class="aboutMe">
+			<h2>It is me</h2>
+		</div>
+		
+		<div class = "photo">
+			<img src="me.jpg" height="320" width="250">
+		</div>
+		
+		<div class="lists">
+			<h4>Unordered list:</h4>
+			
+			<ul>
+				<li>Main</li>
+				<li>Contact</li>
+				<li>About</li>
+			</ul>
+
+			<h4>Ordered list:</h4>
+			
+			<ol>
+				<li>Main</li>
+				<li>Contact</li>
+				<li>About</li>
+			</ol>
+		</div>
+		
+		<div class="tableHeader">
+			<h1>Table</h1>
+		</div>
+		
+		<table>
+			<tr>
+				<th>Company</th>
+				<th>Contact</th>
+				<th>Country</th>
+			</tr>
+			<tr>
+				<td>Alfreds Futterkiste</td>
+				<td>Maria Anders</td>
+				<td>Germany</td>
+			</tr>
+			<tr>
+				<td>Centro comercial Moctezuma</td>
+				<td>Francisco Chang</td>
+				<td>Mexico</td>
+			</tr>
+			<tr>
+				<td>Ernst Handel</td>
+				<td>Roland Mendel</td>
+				<td>Austria</td>
+			</tr>
+			<tr>
+				<td>Island Trading</td>
+				<td>Helen Bennett</td>
+				<td>UK</td>
+			</tr>
+			<tr>
+				<td>Laughing Bacchus Winecellars</td>
+				<td>Yoshi Tannamuri</td>
+				<td>Canada</td>
+			</tr>
+			<tr>
+				<td>Magazzini Alimentari Riuniti</td>
+				<td>Giovanni Rovelli</td>
+				<td>Italy</td>
+			</tr>
+		</table>
+		
+				
+		<div class="form">
+			Company:<br>
+			<input type="text" name="company" value="NU LP">
+			<br>
+			Contact:<br>
+			<input type="text" name="contact" value="Mykhaylo Filipenko">
+			<br>
+			Country:<br>
+			<input type="text" name="country" value="Ukraine">
+			<br><br>
+			<button type="button" onclick="alert('I`ll add U, but later:)')">Submit!</button>
+		</div> 
+		
 	</body>
 
 
