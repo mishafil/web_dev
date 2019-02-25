@@ -1,2 +1,2 @@
 # web_dev
-Web development course
+# Project 1 Author: Mykhaylo-Ivan Filipenko
